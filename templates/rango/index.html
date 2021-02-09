@@ -13,9 +13,11 @@
 				howdy {{ user.username }}!
 			{% else %}
 				hey there partner!
+				
 			{% endif %}
 			<strong>{{ boldmessage }}</strong><br />
 		</div>
+		<p>Visits: {{ visits }}</p>
 		<div>
 			<h2>Most Liked Categories</h2>
 		{% if categories%}
